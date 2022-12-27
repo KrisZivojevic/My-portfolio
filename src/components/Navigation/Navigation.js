@@ -1,14 +1,21 @@
-import List from "./Navigation.styled";
+import { NavStyled, List, NavWrapper } from "./Navigation.styled";
+import Button from "../Button/Button";
 
 const Navigation = () => {
   return (
-    <List className="max-content">
-      <li>Home</li>
-      <li>About</li>
-      <li>Education</li>
-      <li>Projects</li>
-      <li>Contact</li>
-    </List>
+    <NavWrapper>
+      <NavStyled className="max-content">
+        <div className="pl">K</div>
+        <List className="pr">
+          <li>Home</li>
+          <li>About</li>
+          <li>Education</li>
+          <li>Projects</li>
+          <li>Contact</li>
+          <li><Button name="Resume" /></li>
+        </List>
+      </NavStyled>
+    </NavWrapper>
   )
 };
 

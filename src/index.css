@@ -1,18 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+em, img, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
 }
 
 .max-content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+.pl {
+  padding-left: 20px;
+}
+
+.pr {
+  padding-right: 20px;
+}
+
+.pt {
+  padding-top: 20px;
 }
