@@ -1,10 +1,8 @@
-import { ProjectsStyled } from "./Projects.styled";
+import styles from './Projects.module.css';
 
 const Projects = () => {
   return (
-    <ProjectsStyled>
-
-    </ProjectsStyled>
+    <div className={styles.ProjectsStyled}></div>
   )
 }
 

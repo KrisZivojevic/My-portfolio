@@ -1,8 +1,8 @@
-import { FooterStyled } from "./Footer.styled";
+import styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <FooterStyled>
+    <footer className={styles.footer}>
       <div className="max-content">
         <ul>
           <li>1</li>
@@ -12,7 +12,7 @@ const Footer = () => {
         </ul>
         <p>Copyright 2023</p>
       </div>
-    </FooterStyled>
+    </footer>
   )
 }
 

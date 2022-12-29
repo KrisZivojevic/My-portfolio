@@ -1,8 +1,8 @@
-import { BtnStyled } from "./Button.styled"
+import styles from './Button.module.css';
 
 const Button = (props) => {
   return (
-    <BtnStyled isBig={props.isBig}>{props.name}</BtnStyled>
+    <button className={styles.button}>{props.name}</button>
   )
 }
 

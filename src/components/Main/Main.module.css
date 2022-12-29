@@ -1,19 +1,14 @@
-import styled from "styled-components";
-
-export const MainStyled = styled.main`
-  section {
+.main__section {
     background-color: rgba(0,0,0,0.3);
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 120px;
-  }
+  };
 
-  article {
+.main__section article {
     width: 300px;
     height: 300px;
-    background-color: green;
-  }
-
-`
+    background-color: rgb(33, 108, 33);
+  };

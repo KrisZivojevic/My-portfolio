@@ -1,8 +1,8 @@
-import { ContactStyled } from "./Contact.styled";
+import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
-    <ContactStyled>
+    <form className={styles.form}>
       <div>
         <label>Username</label>
         <input />
@@ -12,7 +12,7 @@ const Contact = () => {
         <input />
       </div>
       <button type="submit">Send</button>
-    </ContactStyled>
+    </form>
   )
 }
 

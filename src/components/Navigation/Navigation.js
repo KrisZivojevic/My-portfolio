@@ -1,21 +1,21 @@
-import { NavStyled, List, NavWrapper } from "./Navigation.styled";
+import styles from './Navigation.module.css';
 import Button from "../Button/Button";
 
 const Navigation = () => {
   return (
-    <NavWrapper>
-      <NavStyled className="max-content">
+    <nav className="styles.nav__wrapper">
+      <div className={`${styles.nav__style} max-content`}>
         <div className="pl">K</div>
-        <List className="pr">
+        <div className={`${styles.list} pr`}>
           <li>Home</li>
           <li>About</li>
           <li>Education</li>
           <li>Projects</li>
           <li>Contact</li>
           <li><Button name="Resume" /></li>
-        </List>
-      </NavStyled>
-    </NavWrapper>
+        </div>
+      </div>
+    </nav>
   )
 };
 

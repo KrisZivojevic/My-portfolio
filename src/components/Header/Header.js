@@ -1,13 +1,13 @@
-import { HeaderInfo, HeaderStyled, HeaderWrapper } from "./Header.styled";
+import styles from './Header.module.css';
 import profile from "../../assets/images/profile.jpg";
 import Typewriting from "./Typewriting/Typewriting";
 import Button from "../Button/Button";
 
 const Header = () => {
   return (
-    <HeaderStyled>
-      <HeaderWrapper className="max-content">
-        <HeaderInfo>
+    <header className={styles.header__styled}>
+      <div className={`${styles.header__wrapper} max-content`}>
+        <div className={styles.header__info}>
           <span className="pt">Hi, my name is</span>
           <h1 className="pt">Kristina Živojević</h1>
           <h2 className="pt"><Typewriting /></h2>
@@ -20,14 +20,14 @@ const Header = () => {
             technologies, expand my skill set, explore programming, and ultimately
             make the risky decision to change my career.
           </p>
-          <Button name="Contact me" isBig />
-        </HeaderInfo>
-        <div>
-          <img src={profile} alt="profile image" />
+          <Button name="Contact me" />
         </div>
-      </HeaderWrapper>
+        <div>
+          <img className={styles.header__img} src={profile} alt="profile image" />
+        </div>
+      </div>
       
-    </HeaderStyled>
+    </header>
   );
 };
 
