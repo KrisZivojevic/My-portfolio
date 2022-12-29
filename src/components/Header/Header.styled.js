@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderStyled = styled.header`
   height: calc(100vh - 80px);
-  background-color: darkgray;
+  background-color: #d4e8dc;
 `
 
 export const HeaderWrapper = styled.div`
@@ -12,9 +12,10 @@ export const HeaderWrapper = styled.div`
   img {
     width: 300px;
     height: 300px;
-    object-fit: none;
-    object-position: 0 20%;
+    object-fit: cover;
+    object-position: 10% 0;
     border-radius: 50%;
+    box-shadow: 0px 8px 63px -11px rgba(0,0,0,0.75);
   }
 `
 

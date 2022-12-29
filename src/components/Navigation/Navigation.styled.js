@@ -5,6 +5,7 @@ export const NavWrapper = styled.div`
   top: 0;
   background-color: #fff;
   z-index: 10;
+  box-shadow: 0px 8px 31px -11px rgba(0,0,0,0.75);
 `;
 
 export const NavStyled = styled.div`
