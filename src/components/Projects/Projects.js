@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Project from "./Project";
 import styles from "./Projects.module.css";
 
@@ -22,8 +21,6 @@ const projectList = [
 ];
 
 const Projects = () => {
-  const [projects, setProjects] = useState(projectList);
-
   return (
     <div className={styles.projects__style}>
       <div className={`${styles.projects__wrapper} max-content`}>

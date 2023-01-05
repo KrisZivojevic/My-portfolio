@@ -11,7 +11,7 @@ const Main = () => {
   }, []);
   return (
     <main>
-      <section data-aos="fade-left" className={styles.main__section}>
+      {/* <section data-aos="fade-left" className={styles.main__section}>
         <article>Lorem Ipsum is simply dummy</article>
         <article>It is a long established fact</article>
       </section>
@@ -24,7 +24,7 @@ const Main = () => {
           Lorem Ipsum is simply dummy
         </article>
         <article>It is a long established fact</article>
-      </section>
+      </section> */}
       <Projects />
       <Contact />
     </main>

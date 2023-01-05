@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 const Navigation = () => {
   return (
-    <nav className="styles.nav__wrapper">
+    <nav className={styles.nav__wrapper}>
       <div className={`${styles.nav__style} max-content`}>
         <div className="pl">K</div>
         <div className={`${styles.list} pr`}>
@@ -12,7 +12,7 @@ const Navigation = () => {
           <li>Education</li>
           <li>Projects</li>
           <li>Contact</li>
-          <li><Button name="Resume" /></li>
+          <li><a href="../../assets/cv/KristinaZivojevicCV.pdf" download><Button name="Resume" /></a></li>
         </div>
       </div>
     </nav>
