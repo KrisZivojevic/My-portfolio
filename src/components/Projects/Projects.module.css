@@ -1,0 +1,17 @@
+.projects__style {
+  background-color: #d4e8dc;
+  padding-bottom: 50px;
+  /* height: 50vh; */
+}
+.projects__style h2 {
+  text-align: center;
+  padding: 50px;
+  color: #154042;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
