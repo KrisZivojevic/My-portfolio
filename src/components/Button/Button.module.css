@@ -1,10 +1,16 @@
 .button {
-  border: 2px solid #194a50;
-  color: #194a50;
+  border: 2px solid #154042;
+  color: #154042;
   border-radius: 5px;
   padding: 10px 15px;
   background-color: transparent;
   font-size: 16px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.button:hover {
+  color: #d4e8dc;
+  background-color: #154042;
+  border: 2px solid #d4e8dc;
 }
 
