@@ -1,6 +1,6 @@
 .button {
-  border: 2px solid #154042;
-  color: #154042;
+  border: 2px solid var(--teal);
+  color: var(--teal);
   border-radius: 5px;
   padding: 10px 15px;
   background-color: transparent;
@@ -10,7 +10,7 @@
 }
 .button:hover {
   color: #d4e8dc;
-  background-color: #154042;
-  border: 2px solid #d4e8dc;
+  background-color: var(--teal);
+  border: 2px solid var(--mint);
 }
 

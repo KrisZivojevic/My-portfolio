@@ -1,7 +1,18 @@
+.footer__wave {
+  background-color: var(--mint);
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+.footer__wave svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .footer {
-  height: 300px;
-  background-color: #154042;
-  color: #d4e8dc;
+  background-color: var(--teal);
+  color: var(--mint);
   text-align: center;
   padding: 50px 0;
   display: flex;
@@ -19,24 +30,24 @@
 }
 .footer__icon {
   font-size: 24px;
-  color: #d4e8dc;
+  color: var(--mint);
 }
 .footer li {
   list-style-type: none;
-  border: 2px solid #d4e8dc;
+  border: 2px solid var(--mint);
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
-  background-color: #154042;
+  background-color: var(--teal);
   width: 48px;
   height: 48px;
   transition: all .2s ease-in-out;
 }
 .footer li:hover {
-  background-color: #d4e8dc;
+  background-color: var(--mint);
 }
 .footer li:hover .footer__icon {
-  color: #154042;
+  color: var(--teal);
 }
 .footer__copyright {
   padding-top: 10px;

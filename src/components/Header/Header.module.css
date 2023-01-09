@@ -1,6 +1,6 @@
 .header__styled {
   height: calc(100vh - 80px);
-  background-color: #d4e8dc;
+  background-color: var(--mint);
 }
 
 .header__wrapper {
@@ -16,6 +16,17 @@
     object-position: 10% 0;
     border-radius: 50%;
     box-shadow: 0px 8px 63px -11px rgba(0,0,0,0.75);
+}
+.header__svg {
+  width: 500px;
+  height: 500px;
+  background-color: var(--mint);
+}
+.header__svg path {
+  background-image: url("../../assets/images/profile.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  fill: var(--teal);
 }
 
 .header__info {

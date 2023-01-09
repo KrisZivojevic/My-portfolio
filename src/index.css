@@ -19,6 +19,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
+:root {
+  --teal: #154042;
+  --mint: #d5e9dd;
+}
 
 .max-content {
   max-width: 1000px;
@@ -35,4 +39,9 @@ display: block;
 
 .pt {
   padding-top: 20px;
+}
+
+h2.section-title {
+  font-size: 42px;
+  text-transform: uppercase;
 }
