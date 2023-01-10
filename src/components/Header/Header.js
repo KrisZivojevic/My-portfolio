@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 
 const Header = () => {
   return (
-    <header className={styles.header__styled}>
+    <header id="home" className={styles.header__styled}>
       <div className={`${styles.header__wrapper} max-content`}>
         <div className={styles.header__info}>
           <span className="pt">Hi, my name is</span>

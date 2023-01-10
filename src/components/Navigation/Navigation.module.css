@@ -26,8 +26,13 @@
   justify-content: flex-end;
 }
 .list li {
-    cursor: pointer;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 .nav__button {
   background-color: var(--mint);
+  border: 2px solid var(--mint);
+}
+.list li:hover {
+  color: var(--lime);
 }

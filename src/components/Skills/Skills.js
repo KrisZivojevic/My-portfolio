@@ -3,6 +3,7 @@ import styles from "./Skills.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import wave from '../../assets/images/wave.svg';
 
 const skillsList = [
   {
@@ -48,7 +49,7 @@ const Skills = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className={styles.about__style}>
+    <div id="about" className={styles.about__style}>
       <h2 className="section-title">About Me</h2>
       <div className={`${styles.about__wrapper} max-content`} data-aos="fade-right">
         <div className={styles.about__desc}>
@@ -68,7 +69,7 @@ const Skills = () => {
         </div>
       </div>
       <div className={styles.about__svg}>
-        <svg id="visual" viewBox="0 0 1440 220" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 128L26.7 147C53.3 166 106.7 204 160 238.5C213.3 273 266.7 304 320 305.2C373.3 306.3 426.7 277.7 480 243.2C533.3 208.7 586.7 168.3 640 165.7C693.3 163 746.7 198 800 212.8C853.3 227.7 906.7 222.3 933.3 219.7L960 217" fill="none" stroke-linecap="round" stroke-linejoin="miter" stroke="#154042" stroke-width="3"></path></svg>
+        <img src={wave} alt="wave" />
       </div>
     </div>
   );

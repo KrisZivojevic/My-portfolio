@@ -13,8 +13,8 @@ const Project = (props) => {
   return (
     <div className={styles.project__wrapper} data-aos="fade-left">
       <div className={styles.project__icon}>
-        <a href={props.github}><FaGithub color="#d4e8dc" /></a>
-        <a href={props.demo}><FiExternalLink color="#d4e8dc" /></a>
+        <a href={props.github}><FaGithub color="#d4e8dc" className={styles.icon} /></a>
+        <a href={props.demo}><FiExternalLink color="#d4e8dc" className={styles.icon} /></a>
       </div>
       <h3>{props.projectTitle}</h3>
       <p className={styles.project__desc}>{props.desc}</p>

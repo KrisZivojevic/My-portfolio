@@ -11,6 +11,5 @@
 .button:hover {
   color: #d4e8dc;
   background-color: var(--teal);
-  border: 2px solid var(--mint);
 }
 

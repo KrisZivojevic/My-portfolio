@@ -1,6 +1,7 @@
 .projects__style {
   background-color: var(--mint);
   padding-bottom: 50px;
+  scroll-margin-top: 100px;
 }
 .projects__style h2 {
   text-align: center;

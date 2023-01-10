@@ -22,6 +22,7 @@ display: block;
 :root {
   --teal: #154042;
   --mint: #d5e9dd;
+  --lime: #CFFF00;
 }
 
 .max-content {

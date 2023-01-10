@@ -1,6 +1,7 @@
 .header__styled {
   height: calc(100vh - 80px);
   background-color: var(--mint);
+  scroll-margin-top: 100px;
 }
 
 .header__wrapper {
