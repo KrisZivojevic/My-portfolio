@@ -3,7 +3,7 @@ import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section id='contact' className={styles.contact}>
       <div className='max-content'>
         <h2>Get in Touch</h2>
         <p>Hi! I am actively looking for new opportunities. If you are interested in collaboration, I would love to hear from you! Feel free to contact me by sending an email.</p>

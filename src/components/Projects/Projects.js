@@ -22,9 +22,9 @@ const projectList = [
 
 const Projects = () => {
   return (
-    <div className={styles.projects__style}>
+    <div id="projects" className={styles.projects__style}>
       <div className={`${styles.projects__wrapper} max-content`}>
-        <h2>Noteworthy Projects</h2>
+        <h2 className="section-title">Projects</h2>
         <div className={styles.projects}>
           {projectList.map((project) => (
             <Project

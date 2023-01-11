@@ -4,9 +4,14 @@ import Main from './components/Main/Main';
 import Navigation from './components/Navigation/Navigation';
 
 function App() {
+  const handleClickScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }};
   return (
     <div>
-      <Navigation />
+      <Navigation scrollHandler={handleClickScroll} />
       <Header />
       <Main />
       <Footer />

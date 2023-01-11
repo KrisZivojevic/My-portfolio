@@ -4,6 +4,7 @@ import styles from "./Main.module.css";
 import "aos/dist/aos.css";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
+import Skills from "../Skills/Skills";
 
 const Main = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const Main = () => {
         </article>
         <article>It is a long established fact</article>
       </section> */}
+      <Skills />
       <Projects />
       <Contact />
     </main>

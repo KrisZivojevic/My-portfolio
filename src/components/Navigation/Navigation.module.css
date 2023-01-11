@@ -1,8 +1,8 @@
 .nav__wrapper {
   position: sticky;
   top: 0;
-  background-color: #154042;
-  color: #d4e8dc;
+  background-color: var(--teal);
+  color: var(--mint);
   z-index: 10;
   box-shadow: 0px 8px 31px -11px rgba(0,0,0,0.75);
 }
@@ -26,8 +26,13 @@
   justify-content: flex-end;
 }
 .list li {
-    cursor: pointer;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
 }
 .nav__button {
-  background-color: #d4e8dc;
+  background-color: var(--mint);
+  border: 2px solid var(--mint);
+}
+.list li:hover {
+  color: var(--lime);
 }
