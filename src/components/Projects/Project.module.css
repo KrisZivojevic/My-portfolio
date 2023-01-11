@@ -31,3 +31,17 @@
   font-weight: 300;
   font-size: 12px;
 }
+.icon {
+  transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 1040px) {
+  .project__wrapper {
+    width: 300px;
+    height: 300px;
+    padding: 30px 20px;
+  }
+  .project__wrapper h3 {
+    padding: 20px 0 10px;
+  }
+}

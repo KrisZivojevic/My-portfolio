@@ -1,5 +1,5 @@
 .about__style {
-  background-color: #d4e8dc;
+  background-color: var(--mint);
   padding-bottom: 50px;
 }
 .about__svg {

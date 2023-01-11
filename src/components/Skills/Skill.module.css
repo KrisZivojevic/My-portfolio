@@ -1,10 +1,10 @@
 .skill__item {
   list-style: none;
-  border: 2px solid #154042;
+  border: 2px solid var(--teal);
   color: #d4e8dc;
   border-radius: 5px;
   padding: 10px 15px;
-  background-color: #154042;
+  background-color: var(--teal);
   font-size: 16px;
   transition: all .2s ease-in-out;
 }

@@ -25,12 +25,12 @@ const Header = () => {
           <Button name="Contact me" />
         </div>
         <div>
-          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className={styles.header__svg}>
+          {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className={styles.header__svg}>
             <path
               d="M54.6,-39.4C70.6,-23.4,83.5,-0.7,77.5,14.4C71.5,29.5,46.5,37.1,24.2,46.2C1.9,55.4,-17.6,66.3,-32.3,61.4C-47.1,56.5,-57,35.9,-62.7,13.5C-68.4,-8.8,-70,-32.9,-58.8,-47.9C-47.7,-62.8,-23.8,-68.6,-2.3,-66.8C19.2,-65,38.5,-55.5,54.6,-39.4Z"
               transform="translate(100 100)"
             />
-          </svg>
+          </svg> */}
           {/* <img
             className={styles.header__img}
             src={profile}

@@ -44,7 +44,8 @@
   transition: all .2s ease-in-out;
 }
 .footer li:hover {
-  background-color: var(--mint);
+  background-color: var(--lime);
+  border: 2px solid var(--lime);
 }
 .footer li:hover .footer__icon {
   color: var(--teal);

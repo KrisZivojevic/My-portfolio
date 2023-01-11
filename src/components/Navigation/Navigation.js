@@ -7,8 +7,8 @@ const Navigation = (props) => {
   const [id, setId] = useState("");
 
   const getId = (event) => {
+    console.log("mouse");
     const name = event.target.getAttribute("name");
-    // console.log(typeof(name));
     setId(name);
   }
   
@@ -22,10 +22,10 @@ const Navigation = (props) => {
           <img src={profile} alt="logo" />
         </div>
         <div className={`${styles.list} pr`}>
-          <li name="home" onMouseOver={getId} onClick={scrollHandler}>Home</li>
-          <li name="about" onMouseOver={getId} onClick={scrollHandler}>About</li>
-          <li name="projects" onMouseOver={getId} onClick={scrollHandler}>Projects</li>
-          <li name="contact" onMouseOver={getId} onClick={scrollHandler}>Contact</li>
+          <li name="home" onMouseEnter={getId} onClick={scrollHandler}>Home</li>
+          <li name="about" onMouseEnter={getId} onClick={scrollHandler}>About</li>
+          <li name="projects" onMouseEnter={getId} onClick={scrollHandler}>Projects</li>
+          <li name="contact" onMouseEnter={getId} onClick={scrollHandler}>Contact</li>
           <li>
             <a href="https://drive.google.com/file/d/1aOK_ebI8hqaoEcAuW94yw6eW7uG4EHVw/view?usp=sharing">
               <Button name="Resume" style={styles.nav__button} />
