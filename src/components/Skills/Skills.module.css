@@ -37,3 +37,14 @@
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 678px) {
+  .about__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .about__wrapper div {
+    width: 70%;
+  }
+}

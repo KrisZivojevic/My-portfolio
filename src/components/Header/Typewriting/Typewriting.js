@@ -2,8 +2,8 @@ import Typewriter from "typewriter-effect";
 
 const text = [
   'Front-end rising star.',
-  'Chemist transitioning to web development.',
-  'Kika carica',
+  'Curious about programming.',
+  'CSS enthusiast.',
 ];
 
 const pauseTime = 800;

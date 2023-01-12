@@ -49,6 +49,7 @@ h2.section-title {
 
 @media screen and (max-width: 1040px) {
   .max-content {
-    max-width: 700px;
+    max-width: 100%;
+    padding: 0 30px;
   }
 }

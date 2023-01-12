@@ -6,6 +6,7 @@
   padding: 40px 30px;
   border-radius: 6px;
   position: relative;
+  box-shadow: 0px 8px 63px -11px rgba(0,0,0,0.75);
 }
 .project__icon {
   display: flex;

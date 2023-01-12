@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/header.jpg";
 import Typewriting from "./Typewriting/Typewriting";
 import Button from "../Button/Button";
 
@@ -31,11 +31,11 @@ const Header = () => {
               transform="translate(100 100)"
             />
           </svg> */}
-          {/* <img
+          <img
             className={styles.header__img}
             src={profile}
             alt="profile image"
-          /> */}
+          />
         </div>
       </div>
     </header>

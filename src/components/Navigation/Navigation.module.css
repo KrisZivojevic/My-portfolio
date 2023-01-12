@@ -33,6 +33,38 @@
   background-color: var(--mint);
   border: 2px solid var(--mint);
 }
+.nav__icon {
+  width: 30px;
+  height: 30px;
+  display: none;
+  cursor: pointer;
+}
 .list li:hover {
   color: var(--lime);
+}
+
+@media screen and (max-width: 1040px) {
+  .nav__icon {
+    display: inline;
+  }
+  .list {
+    display: none;
+  }
+  .show {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    position: absolute;
+    top: 79px;
+    right: 0;
+    background-color: var(--teal);
+    padding-bottom: 30px;
+    box-shadow: 0px 15px 10px -15px #111;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .show {
+    width: 200px;
+  }
 }
