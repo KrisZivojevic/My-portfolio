@@ -54,7 +54,7 @@ const Skills = () => {
       <div className={`${styles.about__wrapper} max-content`} data-aos="fade-right">
         <div className={styles.about__desc}>
           <h3>A Few Words About Me...</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <p>I am a chemist by education, but couldn't resist my curiosity to explore the world of programming that has somehow always been around me. Web development has sparked an insatiable curiosity in me despite at times feeling like a leap into the unknown. It has allowed me to keep up with the latest technologies, but more importantly grow as a person, expand my horizons, think outside the box, and genuinely understand the power of tiny steps and taking action to reach great goals.</p>
         </div>
         <div className={styles.skills__wrapper}>
           <h3>My Skills</h3>

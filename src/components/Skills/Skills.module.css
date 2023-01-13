@@ -1,5 +1,5 @@
 .about__style {
-  background-color: #d4e8dc;
+  background-color: var(--mint);
   padding-bottom: 50px;
 }
 .about__svg {
@@ -19,7 +19,10 @@
 }
 .about__wrapper {
   display: flex;
-  gap: 100px;
+  gap: 50px;
+}
+.about__wrapper > div {
+  flex-basis: 50%;
 }
 .about__desc {
   flex-basis: 70%;
@@ -36,4 +39,15 @@
   gap: 10px;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 678px) {
+  .about__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .about__wrapper div {
+    width: 70%;
+  }
 }

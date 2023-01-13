@@ -12,20 +12,6 @@ const Main = () => {
   }, []);
   return (
     <main>
-      {/* <section data-aos="fade-left" className={styles.main__section}>
-        <article>Lorem Ipsum is simply dummy</article>
-        <article>It is a long established fact</article>
-      </section>
-      <section data-aos="fade-right" className={styles.main__section}>
-        <article>Lorem Ipsum is simply dummy</article>
-        <article>It is a long established fact</article>
-      </section>
-      <section data-aos="fade-left" className={styles.main__section}>
-        <article className={styles.main__article}>
-          Lorem Ipsum is simply dummy
-        </article>
-        <article>It is a long established fact</article>
-      </section> */}
       <Skills />
       <Projects />
       <Contact />

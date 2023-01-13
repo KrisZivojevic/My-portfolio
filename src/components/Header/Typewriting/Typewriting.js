@@ -1,9 +1,10 @@
 import Typewriter from "typewriter-effect";
+import styles from './Typewriting.module.css';
 
 const text = [
-  'Front-end rising star.',
-  'Chemist transitioning to web development.',
-  'Kika carica',
+  'A front-end rising star.',
+  'Curious about programming.',
+  'A CSS enthusiast.',
 ];
 
 const pauseTime = 800;
@@ -14,10 +15,10 @@ const Typewriting = () => {
     <Typewriter
       options={{
         loop: true,
+        wrapperClassName: styles.typewriting
       }}
       onInit={(typewriter) => {
         typewriter
-          // .pasteString(text[0], null)
           .typeString(text[0])
           .pauseFor(pauseTime)
           .deleteAll()
