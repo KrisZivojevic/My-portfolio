@@ -46,7 +46,7 @@ const skillsList = [
 
 const Skills = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 2000, disable: window.innerWidth < 678 });
   }, []);
   return (
     <div id="about" className={styles.about__style}>
