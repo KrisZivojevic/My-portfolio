@@ -7,7 +7,7 @@ import Icon from "../Icon/Icon";
 const Project = (props) => {
   const id = useId();
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 2000, disable: window.innerWidth < 678 });
   }, []);
   return (
     <div className={styles.project__wrapper} data-aos="fade-left">
