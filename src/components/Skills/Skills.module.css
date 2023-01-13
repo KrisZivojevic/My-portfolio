@@ -19,7 +19,10 @@
 }
 .about__wrapper {
   display: flex;
-  gap: 100px;
+  gap: 50px;
+}
+.about__wrapper > div {
+  flex-basis: 50%;
 }
 .about__desc {
   flex-basis: 70%;

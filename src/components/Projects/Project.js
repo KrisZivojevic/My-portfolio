@@ -17,7 +17,6 @@ const Project = (props) => {
       </div>
       <h3>{props.projectTitle}</h3>
       <p className={styles.project__desc}>{props.desc}</p>
-      {/* {console.log(props.techList)} */}
       <div className={styles.project__tech}>
         {props.tech.map((item) => (
           <span key={item + id}>{item}</span>

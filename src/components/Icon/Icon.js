@@ -9,9 +9,9 @@ const Icon = (props) => {
 
   let faIcon = null;
   if (props.type === "github") {
-    faIcon = <FaGithub color={isHover ? colors.lime : colors.mint} className={styles.icon} />;
+    faIcon = <FaGithub color={isHover ? colors.lemon : colors.mint} className={styles.icon} />;
   } else {
-    faIcon = <FiExternalLink color={isHover ? colors.lime : colors.mint} className={styles.icon} />;
+    faIcon = <FiExternalLink color={isHover ? colors.lemon : colors.mint} className={styles.icon} />;
   }
   return (
     <a

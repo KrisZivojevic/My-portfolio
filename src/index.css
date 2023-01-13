@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif, 'Roboto Mono', monospace;
+  letter-spacing: 1px;
 }
 html, body, div, span, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -22,7 +23,7 @@ display: block;
 :root {
   --teal: #154042;
   --mint: #d5e9dd;
-  --lime: #CFFF00;
+  --lemon: #fcdd2b;
 }
 
 .max-content {
@@ -51,5 +52,14 @@ h2.section-title {
   .max-content {
     max-width: 100%;
     padding: 0 30px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .max-content {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  h2.section-title {
+    font-size: 28px;
   }
 }

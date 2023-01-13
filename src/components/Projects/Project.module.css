@@ -15,7 +15,7 @@
   font-size: 24px;
 }
 .project__wrapper h3 {
-  padding: 40px 0 10px;
+  padding: 20px 0 10px;
 }
 .project__desc {
   text-align: justify;
@@ -31,6 +31,7 @@
   justify-content: left;
   font-weight: 300;
   font-size: 12px;
+  color: var(--lemon);
 }
 .icon {
   transition: all .2s ease-in-out;
@@ -38,11 +39,22 @@
 
 @media screen and (max-width: 1040px) {
   .project__wrapper {
-    width: 300px;
+    width: 320px;
     height: 300px;
-    padding: 30px 20px;
+    padding: 15px;
   }
   .project__wrapper h3 {
     padding: 20px 0 10px;
+  }
+}
+@media screen and (max-width: 678px) {
+  .project__wrapper {
+    padding: 15px;
+  }
+  .project__tech {
+    gap: 5px;
+  }
+  .project__wrapper h3 {
+    font-size: 16px;
   }
 }

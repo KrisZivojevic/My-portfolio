@@ -10,7 +10,6 @@ const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const getId = (event) => {
-    console.log("mouse");
     const name = event.target.getAttribute("name");
     setId(name);
   }

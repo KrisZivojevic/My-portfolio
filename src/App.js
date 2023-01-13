@@ -7,7 +7,6 @@ function App() {
   const handleClickScroll = (id) => {
     const element = document.getElementById(id);
     if (element) {
-    console.log("click");
       element.scrollIntoView({ behavior: 'smooth' });
     }};
   return (
