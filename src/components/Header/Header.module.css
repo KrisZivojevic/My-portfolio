@@ -1,5 +1,5 @@
 .header__styled {
-  height: calc(100vh - 80px);
+  height: 100vh;
   background-color: var(--mint);
   scroll-margin-top: 90px;
   position: relative;
@@ -54,7 +54,6 @@
   .header__wrapper {
     flex-direction: column;
     height: 90vh;
-    padding-top: 0;
   }
   .header__info {
     display: flex;
@@ -68,9 +67,6 @@
   }
   .header__info h2 {
     font-size: 22px;
-  }
-  .header__styled {
-    height: calc(100vh - 50px);
   }
 }
 
