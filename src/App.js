@@ -7,7 +7,7 @@ import { colors } from "./constants";
 
 function App() {
   return (
-    <div>
+    <div className="overflow">
       <ScrollToTop
         smooth
         style={{ backgroundColor: colors.teal }}
