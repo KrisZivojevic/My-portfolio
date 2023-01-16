@@ -2,6 +2,7 @@ import styles from "./Header.module.css";
 import profile from "../../assets/images/header_photo.png";
 import Typewriting from "./Typewriting/Typewriting";
 import Button from "../Button/Button";
+import Arrows from "./Arrows/Arrows";
 
 const Header = () => {
   return (
@@ -23,6 +24,7 @@ const Header = () => {
           />
         </div>
       </div>
+      <Arrows />
     </header>
   );
 };

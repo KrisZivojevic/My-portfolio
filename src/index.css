@@ -53,11 +53,14 @@ h2.section-title {
     max-width: 100%;
     padding: 0 30px;
   }
+  .scroll-to-top {
+    display: none;
+  }
 }
 @media screen and (max-width: 678px) {
   .max-content {
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 20px;
   }
   h2.section-title {
     font-size: 28px;

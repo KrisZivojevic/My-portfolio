@@ -1,17 +1,22 @@
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
-import Navigation from './components/Navigation/Navigation';
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Navigation from "./components/Navigation/Navigation";
+import ScrollToTop from "react-scroll-to-top";
+import { colors } from "./constants";
 
 function App() {
-  const handleClickScroll = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }};
   return (
     <div>
-      <Navigation scrollHandler={handleClickScroll} />
+      <ScrollToTop
+        smooth
+        style={{ backgroundColor: colors.teal }}
+        height="20"
+        width="20"
+        color={colors.mint}
+        className="scroll-to-top"
+      />
+      <Navigation />
       <Header />
       <Main />
       <Footer />

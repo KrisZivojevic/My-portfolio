@@ -4,11 +4,12 @@
   background-color: var(--teal);
   color: var(--mint);
   z-index: 10;
-  box-shadow: 0px 8px 31px -11px rgba(0,0,0,0.75);
+  box-shadow: 0px 8px 31px -11px rgba(0, 0, 0, 0.75);
 }
 .nav__wrapper img {
   width: 60px;
   height: 60px;
+  cursor: pointer;
 }
 
 .nav__style {
@@ -27,16 +28,18 @@
 }
 .list li {
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .nav__button {
   background-color: var(--mint);
   border: 2px solid var(--mint);
 }
+.menu__icon {
+  display: none;
+}
 .nav__icon {
   width: 30px;
   height: 30px;
-  display: none;
   cursor: pointer;
 }
 .list li:hover {
@@ -44,15 +47,16 @@
 }
 
 @media screen and (max-width: 1040px) {
-  .nav__icon {
+  .menu__icon {
     display: inline;
   }
-  .list {
-    display: none;
-  }
-  .show {
+  .list.small_devices {
+    /* display: none; */
+    visibility: hidden;
+    transition: width 0.15s ease-out,
+    visibility 0.15s ease-out;
+    width: 0;
     display: flex;
-    width: 400px;
     flex-direction: column;
     position: absolute;
     top: 79px;
@@ -61,10 +65,24 @@
     padding-bottom: 30px;
     box-shadow: 0px 15px 10px -15px #111;
   }
+  .list.small_devices.show {
+    width: 50vw;
+    visibility: visible;
+  }
 }
 
 @media screen and (max-width: 678px) {
   .show {
     width: 200px;
+  }
+  .nav__style {
+    height: 50px;
+  }
+  .nav__style img {
+    width: 30px;
+    height: 30px;
+  }
+  .list.small_devices {
+    top: 50px;
   }
 }
