@@ -10,7 +10,7 @@
   height: 100%;
 }
 .about__style {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 90px;
 }
 .about__style h2 {
   text-align: center;
@@ -46,8 +46,5 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-  }
-  .about__wrapper div {
-    width: 70%;
   }
 }
