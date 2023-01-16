@@ -52,7 +52,6 @@
     display: inline;
   }
   .list.small_devices {
-    /* display: none; */
     visibility: hidden;
     transition: width 0.15s ease-out,
     visibility 0.15s ease-out;
