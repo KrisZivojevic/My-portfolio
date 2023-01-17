@@ -22,8 +22,8 @@ const projectList = [
 
 const Projects = () => {
   return (
-    <div id="projects" className={styles.projects__style}>
-      <div className={`${styles.projects__wrapper} max-content`}>
+    <section id="projects" className={styles.projects__style}>
+      <div className="max-content">
         <h2 className="section-title">Projects</h2>
         <div className={styles.projects}>
           {projectList.map((project) => (
@@ -38,7 +38,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
