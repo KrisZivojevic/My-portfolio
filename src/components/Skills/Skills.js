@@ -49,7 +49,7 @@ const Skills = () => {
     Aos.init({ duration: 2000, disable: window.innerWidth < 678 });
   }, []);
   return (
-    <div id="about" className={styles.about__style}>
+    <section id="about" className={styles.about__style}>
       <h2 className="section-title">About Me</h2>
       <div className={`${styles.about__wrapper} max-content`} data-aos="fade-right">
         <div className={styles.about__desc}>
@@ -71,7 +71,7 @@ const Skills = () => {
       <div className={styles.about__svg}>
         <img src={wave} alt="wave" />
       </div>
-    </div>
+    </section>
   );
 };
 

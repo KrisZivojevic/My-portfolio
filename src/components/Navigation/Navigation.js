@@ -27,7 +27,7 @@ const Navigation = (props) => {
             isOpen ? <IoCloseOutline className={styles.nav__icon} /> : <HiMenuAlt3 className={styles.nav__icon} />
           }
         </div>
-        <div className={`${styles.list} ${styles.small_devices} ${isOpen && styles.show}`}>
+        <ul className={`${styles.list} ${styles.small_devices} ${isOpen && styles.show}`}>
           <li name="home" onClick={scrollHandler}>Home</li>
           <li name="about" onClick={scrollHandler}>About</li>
           <li name="projects" onClick={scrollHandler}>Projects</li>
@@ -37,7 +37,7 @@ const Navigation = (props) => {
               <Button name="Resume" style={styles.nav__button} />
             </a>
           </li>
-        </div>
+        </ul>
       </div>
     </nav>
   );

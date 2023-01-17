@@ -14,7 +14,9 @@ const Header = () => {
           <h2 className="pt">
             <Typewriting className={styles.typewriting} />
           </h2>
-          <Button name="Contact me" />
+          <a href="mailto:kristina.zivojevic@gmail.com">
+            <Button name="Contact me" />
+          </a>
         </div>
         <div>
           <img
