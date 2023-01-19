@@ -1,7 +1,7 @@
 ## Portfolio Details
 
 This project was made to present my notable works and to encourage my creativity at the same time.
-I use this website as my professional portfolio that includes my resume as well as contact information.
+I use this website as my professional portfolio which includes my resume as well as contact information.
 
 ## Technical Details
 
