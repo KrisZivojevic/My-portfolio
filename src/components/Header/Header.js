@@ -22,7 +22,7 @@ const Header = () => {
           <img
             className={styles.header__img}
             src={profile}
-            alt="profile image"
+            alt="profile"
           />
         </div>
       </div>

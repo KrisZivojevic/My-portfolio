@@ -4,6 +4,14 @@ import styles from "./Projects.module.css";
 const projectList = [
   {
     id: 1,
+    title: "Tax Calculator",
+    desc: "An app made for checking gross and net income, before and after tax. It consists of 2 tabs, where one is used for income data entry and the other is a table of results.",
+    demo: "https://tax-calculator-sigma.vercel.app/",
+    github: "https://github.com/KrisZivojevic/Tax-calculator",
+    tech: ["HTML5 ", "CSS", "Flexbox", "Grid", "React"],
+  },
+  {
+    id: 2,
     title: "GitHub User Search App",
     desc: "An application made for getting all information about GitHub users. Search is used to get information about one user. The user of the application needs to type a username to retrieve data about one specific user. If the user is not found, an error message will occur.",
     demo: "https://kriszivojevic.github.io/GitHub-Users/",
@@ -11,7 +19,7 @@ const projectList = [
     tech: ["HTML5 ", "CSS", "Flexbox", "Grid", "JavaScript", "API"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Landing Page",
     desc: "A business presentation website.",
     demo: "https://kriszivojevic.github.io/Landing-Page-Template/",

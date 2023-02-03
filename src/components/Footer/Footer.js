@@ -1,6 +1,5 @@
 import styles from "./Footer.module.css";
 import {
-  FaEnvelope,
   FaGithub,
   FaLinkedin,
   FaRegEnvelope,

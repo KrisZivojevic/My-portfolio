@@ -25,6 +25,10 @@ display: block;
   --mint: #d5e9dd;
   --lemon: #fcdd2b;
 }
+::selection {
+  background-color: var(--lemon);
+  color: var(--teal);
+}
 
 .max-content {
   max-width: 1000px;
