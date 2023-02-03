@@ -33,7 +33,7 @@ const Navigation = (props) => {
           <li name="projects" onClick={scrollHandler}>Projects</li>
           <li name="contact" onClick={scrollHandler}>Contact</li>
           <li>
-            <a href="https://drive.google.com/file/d/1GSVTM_mIBXog3Yl6Ijng0PXCFaasmG7i/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1-6A_XB8lesSLu-UECjxdW0aZOkppRkTe/view?usp=sharing">
               <Button name="Resume" style={styles.nav__button} />
             </a>
           </li>
